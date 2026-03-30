@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>OSI vs TCP/IP Encapsulation Animation</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1 class="title">
+📡 OSI vs TCP/IP Encapsulation (WhatsApp Example)
+</h1>
+
+<div class="main">
+
+<!-- Chat UI -->
+
+<div class="chat-box">
+
+<div class="chat-header">
+WhatsApp Chat
+</div>
+
+<div class="chat-body">
+
+<div id="messageBubble" class="message">
+Hello
+</div>
+
+</div>
+
+<button onclick="startFlow()">
+▶ Send "Hello"
+</button>
+
+</div>
+
+<!-- Models -->
+
+<div class="models">
+
+<!-- OSI -->
+
+<div class="model">
+
+<h2>OSI Model</h2>
+
+<div class="layer" data-step="0">
+7️⃣ Application
+</div>
+
+<div class="layer" data-step="1">
+6️⃣ Presentation
+</div>
+
+<div class="layer" data-step="2">
+5️⃣ Session
+</div>
+
+<div class="layer" data-step="3">
+4️⃣ Transport
+</div>
+
+<div class="layer" data-step="4">
+3️⃣ Network
+</div>
+
+<div class="layer" data-step="5">
+2️⃣ Data Link
+</div>
+
+<div class="layer" data-step="6">
+1️⃣ Physical
+</div>
+
+</div>
+
+<!-- TCP/IP -->
+
+<div class="model">
+
+<h2>TCP/IP Model</h2>
+
+<div class="layer tcp" data-step="0">
+Application
+</div>
+
+<div class="layer tcp" data-step="3">
+Transport
+</div>
+
+<div class="layer tcp" data-step="4">
+Internet
+</div>
+
+<div class="layer tcp" data-step="5">
+Network Access
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

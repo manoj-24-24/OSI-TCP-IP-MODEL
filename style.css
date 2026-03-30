@@ -1,0 +1,181 @@
+body {
+
+font-family: Arial;
+background: #020617;
+color: white;
+text-align: center;
+
+}
+
+/* Title */
+
+.title {
+
+color: cyan;
+
+text-shadow:
+0 0 10px cyan,
+0 0 20px cyan;
+
+}
+
+/* Layout */
+
+.main {
+
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-top: 30px;
+
+}
+
+/* Chat */
+
+.chat-box {
+
+background: #0f172a;
+
+border: 2px solid cyan;
+
+border-radius: 15px;
+
+width: 300px;
+
+padding: 10px;
+
+}
+
+.chat-header {
+
+background: #075e54;
+
+padding: 10px;
+
+border-radius: 10px;
+
+font-weight: bold;
+
+}
+
+/* Chat body */
+
+.chat-body {
+
+height: 300px;
+
+position: relative;
+
+overflow: hidden;
+
+}
+
+/* Message */
+
+.message {
+
+position: absolute;
+
+right: 10px;
+
+top: 10px;
+
+background: #25d366;
+
+color: black;
+
+padding: 10px;
+
+border-radius: 12px;
+
+font-weight: bold;
+
+max-width: 250px;
+
+word-wrap: break-word;
+
+transition: all 0.7s ease;
+
+box-shadow:
+0 0 10px #25d366,
+0 0 20px #25d366;
+
+}
+
+/* Models */
+
+.models {
+
+display: flex;
+gap: 40px;
+
+}
+
+.model {
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+/* Layers */
+
+.layer {
+
+padding: 10px;
+
+border: 2px solid cyan;
+
+border-radius: 8px;
+
+width: 220px;
+
+transition: 0.4s;
+
+}
+
+/* Neon Glow */
+
+.layer.active {
+
+background: cyan;
+
+color: black;
+
+box-shadow:
+0 0 10px cyan,
+0 0 20px cyan,
+0 0 40px cyan;
+
+transform: scale(1.05);
+
+}
+
+/* Button */
+
+button {
+
+margin-top: 10px;
+
+padding: 10px 20px;
+
+background: black;
+
+color: cyan;
+
+border: 2px solid cyan;
+
+border-radius: 8px;
+
+cursor: pointer;
+
+}
+
+button:hover {
+
+box-shadow:
+0 0 10px cyan,
+0 0 20px cyan;
+
+}
